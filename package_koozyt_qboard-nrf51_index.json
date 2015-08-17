@@ -25,11 +25,6 @@
                      "version" : "0.8.1",
                      "name" : "dfutil-nrf51-qboard",
                      "packager" : "koozyt"
-                  },
-                  {
-                     "version" : "0.9.0-arduino",
-                     "name" : "openocd",
-                     "packager" : "arduino"
                   }
                ],
                "url" : "http://koozyt.github.io/qboard_arduino_nrf51/qboard_nrf51.tar.bz2",
