@@ -5,16 +5,16 @@
          "maintainer" : "Koozyt, Inc.",
          "platforms" : [
             {
-               "version" : "0.1.0",
+               "version" : "0.2.0",
                "name" : "Koozyt Q.Board (BLE nrf51)",
                "boards" : [
                   {
                      "name" : "qboard-ble"
                   }
                ],
-               "size" : "5055363",
+               "size" : "5065340",
                "architecture" : "nrf51",
-               "checksum" : "SHA-256:e7096e4ca7ef53517f73e041de4b062b067f082456260b4905cf43d0aa349cec",
+               "checksum" : "SHA-256:6f413fe2087154ce96ce62bedae90f246e88d2a3b4b52ffdd16c864a3f23ce82",
                "toolsDependencies" : [
                   {
                      "version" : "4.8.3-2014q1",
