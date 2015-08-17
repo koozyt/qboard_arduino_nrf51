@@ -22,7 +22,7 @@
                      "packager" : "arduino"
                   },
                   {
-                     "version" : "0.8.0",
+                     "version" : "0.8.1",
                      "name" : "dfutil-nrf51-qboard",
                      "packager" : "koozyt"
                   },
