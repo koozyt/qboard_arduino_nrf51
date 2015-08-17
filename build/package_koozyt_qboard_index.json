@@ -1,0 +1,69 @@
+{
+   "packages" : [
+      {
+         "email" : "kzt-qboard-support@googlegroups.com",
+         "maintainer" : "Koozyt, Inc.",
+         "platforms" : [
+            {
+               "version" : "0.1.0",
+               "name" : "Koozyt Q.Board (BLE nrf51)",
+               "boards" : [
+                  {
+                     "name" : "qboard-ble"
+                  }
+               ],
+               "size" : "5304408",
+               "architecture" : "nrf51",
+               "checksum" : "SHA-256:e5a87573946364ac02052518e1ed08e95689d2bec00fd43e3a6645a94d19bcaa",
+               "toolsDependencies" : [
+                  {
+                     "version" : "4.8.3-2014q1",
+                     "name" : "arm-none-eabi-gcc",
+                     "packager" : "arduino"
+                  },
+                  {
+                     "version" : "0.8.0",
+                     "name" : "dfutil-nrf51-qboard",
+                     "packager" : "koozyt"
+                  },
+                  {
+                     "version" : "0.9.0-arduino",
+                     "name" : "openocd",
+                     "packager" : "arduino"
+                  }
+               ],
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/qboard_nrf51.tar.bz2",
+               "category" : "Contributed",
+               "archiveFileName" : "qboard_nrf51.tar.bz2"
+            }
+         ],
+         "tools" : [
+            {
+               "systems" : [
+                  {
+                     "checksum" : "SHA-256:d9ca09d292726cc3e9b82df6405bc3da3f8e3a8650cb60b1f6afee7b5a93744c",
+                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.1-mac.tar.bz2",
+                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.1-mac.tar.bz2",
+                     "size" : "12627",
+                     "host" : "x86_64-apple-darwin"
+                  },
+                  {
+                     "checksum" : "SHA-256:ed656e06dfb002660fd7cf2f05c51504ae8ebcd2256226234f1f1863cc0fefea",
+                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.1-windows.tar.bz2",
+                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.1-windows.tar.bz2",
+                     "size" : "31238",
+                     "host" : "i686-mingw32"
+                  }
+               ],
+               "version" : "0.8.1",
+               "name" : "dfutil-nrf51-qboard"
+            }
+         ],
+         "help" : {
+            "online" : "http://www.koozyt.com/service/qboard"
+         },
+         "websiteURL" : "http://www.koozyt.com/",
+         "name" : "koozyt"
+      }
+   ]
+}
