@@ -27,9 +27,9 @@
                      "packager" : "koozyt"
                   }
                ],
-               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/qboard_nrf51.tar.bz2",
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/qboard_nrf51-0.2.1.tar.bz2",
                "category" : "Contributed",
-               "archiveFileName" : "qboard_nrf51.tar.bz2"
+               "archiveFileName" : "qboard_nrf51-0.2.1.tar.bz2"
             }
          ],
          "tools" : [
