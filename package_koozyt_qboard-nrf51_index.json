@@ -2,63 +2,63 @@
    "packages" : [
       {
          "email" : "kzt-qboard-support@googlegroups.com",
-         "maintainer" : "Koozyt, Inc.",
-         "name" : "koozyt",
-         "platforms" : [
-            {
-               "archiveFileName" : "qboard_nrf51-0.2.5.tar.bz2",
-               "category" : "Contributed",
-               "version" : "0.2.5",
-               "toolsDependencies" : [
-                  {
-                     "packager" : "arduino",
-                     "version" : "4.8.3-2014q1",
-                     "name" : "arm-none-eabi-gcc"
-                  },
-                  {
-                     "packager" : "koozyt",
-                     "version" : "0.8.3",
-                     "name" : "dfutil-nrf51-qboard"
-                  }
-               ],
-               "architecture" : "nrf51",
-               "checksum" : "SHA-256:d7f3b7b35ab5366530377c819a78f6a6585b57de992934ee711389d691868256",
-               "size" : "5069167",
-               "name" : "Koozyt Q.Board (BLE nrf51)",
-               "boards" : [
-                  {
-                     "name" : "qboard-ble"
-                  }
-               ],
-               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/qboard_nrf51-0.2.5.tar.bz2"
-            }
-         ],
          "tools" : [
             {
-               "version" : "0.8.3",
-               "name" : "dfutil-nrf51-qboard",
                "systems" : [
                   {
                      "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.3-mac.tar.bz2",
-                     "size" : "12935",
+                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.3-mac.tar.bz2",
                      "checksum" : "SHA-256:531ca11020708356bf1d2c573db23a5e07e05a298fc5c1e81bb11def4b9593d0",
                      "host" : "x86_64-apple-darwin",
-                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.3-mac.tar.bz2"
+                     "size" : "12935"
                   },
                   {
-                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.3-windows.tar.bz2",
-                     "host" : "i686-mingw32",
                      "checksum" : "SHA-256:9502d4153873503b271b6d0e415ed2123e9a50d60bef5c4b3a74600489f8e18b",
+                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.3-windows.tar.bz2",
+                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.3-windows.tar.bz2",
                      "size" : "1164243",
-                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.3-windows.tar.bz2"
+                     "host" : "i686-mingw32"
                   }
-               ]
+               ],
+               "name" : "dfutil-nrf51-qboard",
+               "version" : "0.8.3"
             }
          ],
          "help" : {
             "online" : "http://www.koozyt.com/service/qboard"
          },
-         "websiteURL" : "http://www.koozyt.com/"
+         "maintainer" : "Koozyt, Inc.",
+         "platforms" : [
+            {
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/qboard_nrf51-0.2.6.tar.bz2",
+               "checksum" : "SHA-256:3f777b00256b08a2a8a0382e607572ed7562a9495580f3cf2c4edf15108cf980",
+               "category" : "Contributed",
+               "name" : "Koozyt Q.Board (BLE nrf51)",
+               "version" : "0.2.6",
+               "toolsDependencies" : [
+                  {
+                     "version" : "4.8.3-2014q1",
+                     "name" : "arm-none-eabi-gcc",
+                     "packager" : "arduino"
+                  },
+                  {
+                     "packager" : "koozyt",
+                     "name" : "dfutil-nrf51-qboard",
+                     "version" : "0.8.3"
+                  }
+               ],
+               "boards" : [
+                  {
+                     "name" : "qboard-ble"
+                  }
+               ],
+               "archiveFileName" : "qboard_nrf51-0.2.6.tar.bz2",
+               "architecture" : "nrf51",
+               "size" : "5072636"
+            }
+         ],
+         "websiteURL" : "http://www.koozyt.com/",
+         "name" : "koozyt"
       }
    ]
 }
