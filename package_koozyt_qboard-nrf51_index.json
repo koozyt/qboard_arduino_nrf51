@@ -2,25 +2,70 @@
    "packages" : [
       {
          "name" : "koozyt",
+         "help" : {
+            "online" : "http://www.koozyt.com/service/qboard"
+         },
          "maintainer" : "Koozyt, Inc.",
-         "email" : "kzt-qboard-support@googlegroups.com",
+         "tools" : [
+            {
+               "version" : "0.8.6",
+               "systems" : [
+                  {
+                     "size" : "13077",
+                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.6-mac.tar.bz2",
+                     "host" : "x86_64-apple-darwin",
+                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.6-mac.tar.bz2",
+                     "checksum" : "SHA-256:6063771cd2ccf6b35297e9f693792babd4ca6fd6c8b1a48645ce805569a1df97"
+                  },
+                  {
+                     "checksum" : "SHA-256:fad26239198a54de6185a7983b3125964a6a6f9cb99910e2ed3fce2df07824d7",
+                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.6-windows.tar.bz2",
+                     "size" : "1163385",
+                     "host" : "i686-mingw32",
+                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.6-windows.tar.bz2"
+                  }
+               ],
+               "name" : "dfutil-nrf51-qboard"
+            }
+         ],
          "platforms" : [
             {
-               "size" : "5070082",
+               "toolsDependencies" : [
+                  {
+                     "name" : "arm-none-eabi-gcc",
+                     "version" : "4.8.3-2014q1",
+                     "packager" : "arduino"
+                  },
+                  {
+                     "name" : "dfutil-nrf51-qboard",
+                     "packager" : "koozyt",
+                     "version" : "0.8.5"
+                  }
+               ],
+               "checksum" : "SHA-256:2589b7e8d44605d39dcb69735fd550267cee2429535fbf925a9f0528b9906b51",
                "boards" : [
                   {
                      "name" : "qboard-ble"
                   }
                ],
-               "archiveFileName" : "qboard_nrf51-0.2.9.tar.bz2",
+               "size" : "5070082",
                "version" : "0.2.8",
-               "checksum" : "SHA-256:2589b7e8d44605d39dcb69735fd550267cee2429535fbf925a9f0528b9906b51",
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.8.tar.bz2",
                "name" : "Koozyt Q.Board (BLE nrf51)",
+               "category" : "Contributed",
+               "archiveFileName" : "qboard_nrf51-0.2.9.tar.bz2",
+               "architecture" : "nrf51"
+            },
+            {
+               "name" : "Koozyt Q.Board (BLE nrf51)",
+               "category" : "Contributed",
+               "architecture" : "nrf51",
+               "archiveFileName" : "qboard_nrf51-0.2.9.tar.bz2",
                "toolsDependencies" : [
                   {
-                     "packager" : "arduino",
                      "name" : "arm-none-eabi-gcc",
-                     "version" : "4.8.3-2014q1"
+                     "version" : "4.8.3-2014q1",
+                     "packager" : "arduino"
                   },
                   {
                      "version" : "0.8.5",
@@ -28,91 +73,73 @@
                      "name" : "dfutil-nrf51-qboard"
                   }
                ],
-               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.8.tar.bz2",
-               "category" : "Contributed",
-               "architecture" : "nrf51"
-            },
-            {
-               "name" : "Koozyt Q.Board (BLE nrf51)",
-               "toolsDependencies" : [
-                  {
-                     "packager" : "arduino",
-                     "name" : "arm-none-eabi-gcc",
-                     "version" : "4.8.3-2014q1"
-                  },
-                  {
-                     "name" : "dfutil-nrf51-qboard",
-                     "packager" : "koozyt",
-                     "version" : "0.8.5"
-                  }
-               ],
-               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.9.tar.bz2",
-               "architecture" : "nrf51",
-               "category" : "Contributed",
                "boards" : [
                   {
                      "name" : "qboard-ble"
                   }
                ],
+               "checksum" : "SHA-256:640209ebe1b0436baf1aff27f0df92c14cda5e8d1f3440ce7a1db7adba8b7a54",
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.9.tar.bz2",
                "size" : "5076019",
-               "archiveFileName" : "qboard_nrf51-0.2.9.tar.bz2",
-               "version" : "0.2.9",
-               "checksum" : "SHA-256:640209ebe1b0436baf1aff27f0df92c14cda5e8d1f3440ce7a1db7adba8b7a54"
+               "version" : "0.2.9"
             },
             {
-               "architecture" : "nrf51",
-               "category" : "Contributed",
-               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.10.tar.bz2",
                "name" : "Koozyt Q.Board (BLE nrf51)",
+               "category" : "Contributed",
+               "architecture" : "nrf51",
+               "archiveFileName" : "qboard_nrf51-0.2.10.tar.bz2",
                "toolsDependencies" : [
                   {
-                     "name" : "arm-none-eabi-gcc",
+                     "version" : "4.8.3-2014q1",
                      "packager" : "arduino",
-                     "version" : "4.8.3-2014q1"
+                     "name" : "arm-none-eabi-gcc"
                   },
                   {
-                     "name" : "dfutil-nrf51-qboard",
                      "packager" : "koozyt",
-                     "version" : "0.8.5"
+                     "version" : "0.8.5",
+                     "name" : "dfutil-nrf51-qboard"
+                  }
+               ],
+               "boards" : [
+                  {
+                     "name" : "qboard-ble"
                   }
                ],
                "checksum" : "SHA-256:8b2645d5a1e5fc251b03de6e95e67237a7af41a9499501f34a6448b76c465352",
-               "version" : "0.2.10",
-               "archiveFileName" : "qboard_nrf51-0.2.10.tar.bz2",
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.10.tar.bz2",
+               "size" : "5077032",
+               "version" : "0.2.10"
+            },
+            {
+               "url" : "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.11.tar.bz2",
+               "version" : "0.2.11",
+               "size" : "6246310",
+               "checksum" : "SHA-256:e420edef25a074514265cec0cc1c7e5c48d75d9cd017b505d5648418bc115aba",
                "boards" : [
                   {
                      "name" : "qboard-ble"
                   }
                ],
-               "size" : "5077032"
-            }
-         ],
-         "tools" : [
-            {
-               "systems" : [
+               "toolsDependencies" : [
                   {
-                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.5-mac.tar.bz2",
-                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.5-mac.tar.bz2",
-                     "size" : "13077",
-                     "host" : "x86_64-apple-darwin",
-                     "checksum" : "SHA-256:6063771cd2ccf6b35297e9f693792babd4ca6fd6c8b1a48645ce805569a1df97"
+                     "name" : "arm-none-eabi-gcc",
+                     "packager" : "arduino",
+                     "version" : "4.8.3-2014q1"
                   },
                   {
-                     "size" : "1163058",
-                     "url" : "http://koozyt.github.io/qboard_uploader_nrf51/dfutil-nrf51-qboard-0.8.5-windows.tar.bz2",
-                     "archiveFileName" : "dfutil-nrf51-qboard-0.8.5-windows.tar.bz2",
-                     "host" : "i686-mingw32",
-                     "checksum" : "SHA-256:5f6d10075171e859a893f1670e8794dec2ddf89b959b5bceced7f1d7f308ee7d"
+                     "name" : "dfutil-nrf51-qboard",
+                     "packager" : "koozyt",
+                     "version" : "0.8.6"
                   }
                ],
-               "version" : "0.8.5",
-               "name" : "dfutil-nrf51-qboard"
+               "architecture" : "nrf51",
+               "archiveFileName" : "qboard_nrf51-0.2.11.tar.bz2",
+               "name" : "Koozyt Q.Board (BLE nrf51)",
+               "category" : "Contributed"
             }
          ],
-         "websiteURL" : "http://www.koozyt.com/",
-         "help" : {
-            "online" : "http://www.koozyt.com/service/qboard"
-         }
+         "email" : "kzt-qboard-support@googlegroups.com",
+         "websiteURL" : "http://www.koozyt.com/"
       }
    ]
 }
