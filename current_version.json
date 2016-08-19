@@ -1,12 +1,12 @@
         {
           "name": "Koozyt Q.Board (BLE nrf51)",
           "architecture": "nrf51",
-          "version": "0.2.12",
+          "version": "0.2.13",
           "category": "Contributed",
-          "url": "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.12.tar.bz2",
-          "archiveFileName": "qboard_nrf51-0.2.12.tar.bz2",
-          "checksum": "SHA-256:c9c723ca476f319e138a88e10de1013cbe34026388e745e1daaa53dfdaea8c31",
-          "size": "6248720",
+          "url": "http://koozyt.github.io/qboard_arduino_nrf51/packages/qboard_nrf51-0.2.13.tar.bz2",
+          "archiveFileName": "qboard_nrf51-0.2.13.tar.bz2",
+          "checksum": "SHA-256:9756ffcb6eca39a86243de793201ba74104118b5ae33b5c17e8b9f89063f5644",
+          "size": "6247189",
           "boards": [
             {
               "name": "qboard-ble"
